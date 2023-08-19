@@ -7,6 +7,10 @@ NASM-specific syntax. Requires Emacs 24.3 or higher.
 
 The instruction and keyword lists are from NASM 2.12.01.
 
+# enable nasm-mode
+
+(add-to-list 'auto-mode-alist '("\\.nasm\\'" . nasm-mode))
+
 ## Known Issues
 
 * Due to limitations of Emacs' syntax tables, like many other major
